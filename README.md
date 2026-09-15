@@ -2,6 +2,8 @@
 
 An experimental internal combustion engine research project and hyper-GT architectural exploration.
 
+[![Public repository validation](https://github.com/EVONIX22/Project-Gambit-Public/actions/workflows/public-repository-validation.yml/badge.svg)](https://github.com/EVONIX22/Project-Gambit-Public/actions/workflows/public-repository-validation.yml)
+
 ---
 
 > [!WARNING]
@@ -54,7 +56,28 @@ The core research explores novel engine layouts (including X8, X16, and theoreti
 
 ---
 
-## 📊 Public Deliverables & Structure
+## 📊 Evidence at a Glance
+
+The public evidence is intentionally non-enabling: it shows what was evaluated,
+the outcome, and the limitations without publishing complete geometry or solver
+implementation details.
+
+| Evidence package | Result | Maturity |
+|---|---|---|
+| [X4 conceptual engineering screening](docs/public-results/x4_conceptual_screening.md) | Kinematics passed; structural and thermomechanical screens exposed redesign items | Simulation / conceptual screening |
+| [X4 kinematic validation](results/kinematics/x4_validation_summary.csv) | 1-DOF mechanism audit and 1,081-frame native-solver sweep passed | Virtual test |
+| [X16 powerband comparison](docs/public-results/powerband_summary.md) | NA, 8 psi, and 13 psi simulation points published | Simulation proxy |
+| [Tribology statement](docs/public-results/tribology_high_level_statement.md) | High-level numerical result; detailed geometry and solver remain private | Numerical study |
+
+Start with the [public results index](docs/public-results/README.md) for scope,
+methodology, limitations, and machine-readable downloads.
+
+> [!IMPORTANT]
+> Published simulation results are not physical dyno, durability, safety, or
+> manufacturing validation. Negative and inconclusive findings are retained
+> because they are part of the engineering record.
+
+## Public Deliverables & Structure
 
 This public archive provides non-enabling documentation, high-level performance summaries, and research milestones:
 
@@ -70,16 +93,33 @@ Project-Gambit-Public/
 │   ├── development/
 │   │   └── roadmap_and_learning_stages.md       # Research ladder and virtual-to-physical roadmap
 │   └── public-results/
+│       ├── README.md                             # Evidence index and maturity labels
+│       ├── methodology_and_limitations.md        # Interpretation and disclosure policy
+│       ├── x4_conceptual_screening.md            # Sanitized historical test report
 │       ├── powerband_summary.md                 # Engine simulation findings (NA vs Boosted)
 │       └── tribology_high_level_statement.md    # Hydrodynamic lubrication statement
 ├── results/
 │   ├── engine-simulator/
 │   │   └── x16_boost_summary_metrics.csv        # Simulated powerband metrics
-│   ├── tribology-summary/
+│   ├── engineering/
+│   │   └── x4_screening_status.csv               # PASS/FAIL/INCONCLUSIVE matrix
+│   ├── kinematics/
+│   │   └── x4_validation_summary.csv             # Sanitized solver test metrics
 │   └── performance/
 │       └── high_level_specifications.csv        # Architectural target specifications
-└── media/
+├── scripts/
+│   └── validate_public_repo.py                  # Reproducible public-safety/data checks
+└── .github/workflows/                           # Checks every push and pull request
 ```
+
+## Public/Private Boundary
+
+The public repository may contain narrative reports, aggregate tables, old
+concept results, and non-enabling plots. It must not contain CAD, mesh geometry,
+Engine Simulator `.mr` files, manufacturing drawings, exact enabling dimensions,
+tolerances, private solver code, secrets, or personal machine paths. The automated
+validation checks both tracked files and historical path names for prohibited
+formats.
 
 ---
 

@@ -1,0 +1,3 @@
+test_id,evidence_type,sweep_scope,samples,status,max_normalized_constraint_residual,max_joint_position_residual_mm,expected_dof,measured_dof,limitations
+X4-KIN-001,Numerical constraint Jacobian,Undriven instantaneous mechanism,1,PASS,3.93e-16,2.08e-14,1,1,Not a collision or durability test
+X4-KIN-002,Native CAD assembly solver,Three crank revolutions at one-degree increments,1081,PASS,,6.44e-14,1,1,Geometry and trajectory coordinates withheld

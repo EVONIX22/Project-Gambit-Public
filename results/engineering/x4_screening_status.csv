@@ -1,0 +1,8 @@
+area,status,evidence_type,public_conclusion,principal_limitation
+Kinematics,PASS,Native solver and numerical audit,Commanded sweep completed with expected mechanism freedom,Virtual test only
+High-RPM dynamics,INCONCLUSIVE,Analytical sweep,Sweep completed and loads were bounded for screening,Measured pressure and durability inputs unavailable
+Structural,FAIL,Preliminary linear FEA and analytical screen,Redesign items fell below the conceptual safety threshold,Idealized restraints and no mesh-convergence certification
+Modal,INCONCLUSIVE,Preliminary modal FEA,Potential engine-order crossing identified,Contacts damping and full torsional model absent
+Friction,INCONCLUSIVE,Analytical estimate,Loss trend estimated across the operating range,Ring pack oil and interfaces provisional
+Thermal,INCONCLUSIVE,Lumped thermal network,Thermal risk areas identified,No production-representative cooling geometry or thermal FEA
+Thermomechanical clearance,FAIL,Analytical clearance screen,Critical undefined interface identified,Complete tolerance and distortion fields absent

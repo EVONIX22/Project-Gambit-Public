@@ -136,21 +136,11 @@ No se mezclarán literalmente secciones de carrocerías existentes. El C3 inspir
 
 ### Referencias visuales iniciales
 
-Las siguientes imágenes constituyen la primera exploración visual oficial del proyecto. Representan la misma propuesta en dos lenguajes: una visualización a color y un boceto automotriz a lápiz.
-
-#### Concepto a color
-
-![Render conceptual a color del hiperdeportivo carmesí de cuatro plazas](<Hiperdeportivo carmesí de cuatro plazas.png>)
-
-*Figura 1. Primera visualización a color: carrocería carmesí, postura ancha, capó largo, cabina para cuatro ocupantes y presencia elegante pero agresiva.*
-
-#### Boceto a lápiz
-
-![Boceto automotriz a lápiz del hiperdeportivo de cuatro plazas](<Boceto automotriz en grafito.png>)
-
-*Figura 2. Interpretación del mismo concepto como boceto de diseño en grafito, con líneas de construcción y sombreado manual.*
-
-Estas imágenes no congelan la carrocería definitiva. Su función es establecer emoción, postura, proporciones generales y lenguaje antes de resolver packaging, ergonomía, aerodinámica, refrigeración, seguridad y fabricación. Todos sus elementos podrán cambiar cuando comiencen el modelado tridimensional y las comprobaciones técnicas.
+Las primeras exploraciones visuales se mantienen fuera de este archivo público
+hasta completar una revisión específica de propiedad intelectual. No representan
+geometría fabricable ni congelan la carrocería definitiva; su función interna es
+establecer emoción, postura y lenguaje antes de resolver packaging, ergonomía,
+aerodinámica, refrigeración, seguridad y fabricación.
 
 ---
 

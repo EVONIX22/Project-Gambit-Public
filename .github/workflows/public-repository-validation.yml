@@ -1,0 +1,20 @@
+name: Public repository validation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out complete history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate disclosure boundary and public data
+        run: python scripts/validate_public_repo.py
