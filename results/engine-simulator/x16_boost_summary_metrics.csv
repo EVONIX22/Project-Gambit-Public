@@ -1,0 +1,4 @@
+Configuration,Target_RPM,Manifold_Boost_PSI,Manifold_Pressure_psia,Charge_Temp_C,Target_AFR,Simulated_Power_HP,BMEP_Estimate_bar
+NA Baseline,11400,0.0,14.7,25.0,12.5,435,13.8
+Quad E-Turbo Proxy 8 PSI,10500,8.0,22.7,40.3,11.8,560,17.9
+Quad E-Turbo Proxy 13 PSI,10000,13.0,27.7,48.0,11.5,657,21.2
